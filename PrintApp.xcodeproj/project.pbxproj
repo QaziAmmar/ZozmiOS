@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046DF45825EFA0F80015A7BA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046DF45725EFA0F80015A7BA /* SWRevealViewController.m */; };
+		700B399525F0A4FF0089C3A1 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B399425F0A4FF0089C3A1 /* CardsViewController.swift */; };
+		700B399825F0A82D0089C3A1 /* BondsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B399725F0A82D0089C3A1 /* BondsViewController.swift */; };
+		700B399B25F0AD3F0089C3A1 /* BillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B399A25F0AD3F0089C3A1 /* BillsViewController.swift */; };
+		700B399E25F0AF7A0089C3A1 /* CertificatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B399D25F0AF7A0089C3A1 /* CertificatesViewController.swift */; };
+		700B39A125F0B1DC0089C3A1 /* FolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B39A025F0B1DC0089C3A1 /* FolderViewController.swift */; };
+		700B39A425F0B3DD0089C3A1 /* AdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B39A325F0B3DD0089C3A1 /* AdsViewController.swift */; };
+		700B39A725F0B5820089C3A1 /* CPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B39A625F0B5810089C3A1 /* CPaperViewController.swift */; };
+		704E62B025ED5514005BEF58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E62AF25ED5514005BEF58 /* AppDelegate.swift */; };
+		704E62B225ED5514005BEF58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E62B125ED5514005BEF58 /* SceneDelegate.swift */; };
+		704E62B425ED5514005BEF58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E62B325ED5514005BEF58 /* ViewController.swift */; };
+		704E62B725ED5514005BEF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704E62B525ED5514005BEF58 /* Main.storyboard */; };
+		704E62B925ED5516005BEF58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 704E62B825ED5516005BEF58 /* Assets.xcassets */; };
+		704E62BC25ED5516005BEF58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 704E62BA25ED5516005BEF58 /* LaunchScreen.storyboard */; };
+		704E62FC25EE0E1E005BEF58 /* Cairo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 704E62F525EE0E1E005BEF58 /* Cairo-ExtraLight.ttf */; };
+		704E62FD25EE0E1E005BEF58 /* Cairo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 704E62F625EE0E1E005BEF58 /* Cairo-SemiBold.ttf */; };
+		704E62FE25EE0E1E005BEF58 /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 704E62F725EE0E1E005BEF58 /* Cairo-Regular.ttf */; };
+		704E62FF25EE0E1E005BEF58 /* Cairo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 704E62F825EE0E1E005BEF58 /* Cairo-Light.ttf */; };
+		704E630025EE0E1E005BEF58 /* Cairo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 704E62F925EE0E1E005BEF58 /* Cairo-Black.ttf */; };
+		704E630125EE0E1E005BEF58 /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 704E62FA25EE0E1E005BEF58 /* Cairo-Bold.ttf */; };
+		704E630225EE0E1E005BEF58 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 704E62FB25EE0E1E005BEF58 /* OFL.txt */; };
+		704E630C25EE3D55005BEF58 /* DesignAbleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E630B25EE3D55005BEF58 /* DesignAbleViews.swift */; };
+		70E4052E25EFF6820036CB24 /* SideMeneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4052D25EFF6820036CB24 /* SideMeneViewController.swift */; };
+		70E4053725F000D00036CB24 /* ComputerBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4053625F000D00036CB24 /* ComputerBillsViewController.swift */; };
+		70E4053A25F001830036CB24 /* PrintDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4053925F001830036CB24 /* PrintDetailViewController.swift */; };
+		70F8BAA825EE5B9F0027554D /* SelectServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F8BAA725EE5B9F0027554D /* SelectServiceVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046DF45525EFA0F60015A7BA /* PrintApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrintApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		046DF45625EFA0F70015A7BA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		046DF45725EFA0F80015A7BA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		700B399425F0A4FF0089C3A1 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		700B399725F0A82D0089C3A1 /* BondsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondsViewController.swift; sourceTree = "<group>"; };
+		700B399A25F0AD3F0089C3A1 /* BillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsViewController.swift; sourceTree = "<group>"; };
+		700B399D25F0AF7A0089C3A1 /* CertificatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesViewController.swift; sourceTree = "<group>"; };
+		700B39A025F0B1DC0089C3A1 /* FolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderViewController.swift; sourceTree = "<group>"; };
+		700B39A325F0B3DD0089C3A1 /* AdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsViewController.swift; sourceTree = "<group>"; };
+		700B39A625F0B5810089C3A1 /* CPaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPaperViewController.swift; sourceTree = "<group>"; };
+		704E62AC25ED5514005BEF58 /* PrintApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		704E62AF25ED5514005BEF58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		704E62B125ED5514005BEF58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		704E62B325ED5514005BEF58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		704E62B625ED5514005BEF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		704E62B825ED5516005BEF58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		704E62BB25ED5516005BEF58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		704E62BD25ED5516005BEF58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		704E62F525EE0E1E005BEF58 /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		704E62F625EE0E1E005BEF58 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		704E62F725EE0E1E005BEF58 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		704E62F825EE0E1E005BEF58 /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		704E62F925EE0E1E005BEF58 /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		704E62FA25EE0E1E005BEF58 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		704E62FB25EE0E1E005BEF58 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		704E630B25EE3D55005BEF58 /* DesignAbleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignAbleViews.swift; sourceTree = "<group>"; };
+		70E4052D25EFF6820036CB24 /* SideMeneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMeneViewController.swift; sourceTree = "<group>"; };
+		70E4053625F000D00036CB24 /* ComputerBillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerBillsViewController.swift; sourceTree = "<group>"; };
+		70E4053925F001830036CB24 /* PrintDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintDetailViewController.swift; sourceTree = "<group>"; };
+		70F8BAA725EE5B9F0027554D /* SelectServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectServiceVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		704E62A925ED5514005BEF58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046DF45425EFA0D00015A7BA /* SWRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				046DF45625EFA0F70015A7BA /* SWRevealViewController.h */,
+				046DF45725EFA0F80015A7BA /* SWRevealViewController.m */,
+				046DF45525EFA0F60015A7BA /* PrintApp-Bridging-Header.h */,
+			);
+			path = SWRevealController;
+			sourceTree = "<group>";
+		};
+		0483CDE425EFB2F300687B80 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				70E4052D25EFF6820036CB24 /* SideMeneViewController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		704E62A325ED5514005BEF58 = {
+			isa = PBXGroup;
+			children = (
+				704E62AE25ED5514005BEF58 /* PrintApp */,
+				704E62AD25ED5514005BEF58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		704E62AD25ED5514005BEF58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				704E62AC25ED5514005BEF58 /* PrintApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		704E62AE25ED5514005BEF58 /* PrintApp */ = {
+			isa = PBXGroup;
+			children = (
+				70E4053425EFFFAF0036CB24 /* printViews */,
+				0483CDE425EFB2F300687B80 /* SideMenu */,
+				046DF45425EFA0D00015A7BA /* SWRevealController */,
+				70F8BAAA25EE5BA40027554D /* ServiceSelection */,
+				704E630A25EE3D22005BEF58 /* UIViewExtension */,
+				704E62AF25ED5514005BEF58 /* AppDelegate.swift */,
+				704E62B125ED5514005BEF58 /* SceneDelegate.swift */,
+				704E62B325ED5514005BEF58 /* ViewController.swift */,
+				704E62B525ED5514005BEF58 /* Main.storyboard */,
+				704E62B825ED5516005BEF58 /* Assets.xcassets */,
+				704E62BA25ED5516005BEF58 /* LaunchScreen.storyboard */,
+				704E62BD25ED5516005BEF58 /* Info.plist */,
+				704E62F425EE0E1E005BEF58 /* Cairo */,
+				70E4053925F001830036CB24 /* PrintDetailViewController.swift */,
+			);
+			path = PrintApp;
+			sourceTree = "<group>";
+		};
+		704E62F425EE0E1E005BEF58 /* Cairo */ = {
+			isa = PBXGroup;
+			children = (
+				704E62F525EE0E1E005BEF58 /* Cairo-ExtraLight.ttf */,
+				704E62F625EE0E1E005BEF58 /* Cairo-SemiBold.ttf */,
+				704E62F725EE0E1E005BEF58 /* Cairo-Regular.ttf */,
+				704E62F825EE0E1E005BEF58 /* Cairo-Light.ttf */,
+				704E62F925EE0E1E005BEF58 /* Cairo-Black.ttf */,
+				704E62FA25EE0E1E005BEF58 /* Cairo-Bold.ttf */,
+				704E62FB25EE0E1E005BEF58 /* OFL.txt */,
+			);
+			path = Cairo;
+			sourceTree = SOURCE_ROOT;
+		};
+		704E630A25EE3D22005BEF58 /* UIViewExtension */ = {
+			isa = PBXGroup;
+			children = (
+				704E630B25EE3D55005BEF58 /* DesignAbleViews.swift */,
+			);
+			path = UIViewExtension;
+			sourceTree = "<group>";
+		};
+		70E4053425EFFFAF0036CB24 /* printViews */ = {
+			isa = PBXGroup;
+			children = (
+				70E4053625F000D00036CB24 /* ComputerBillsViewController.swift */,
+				700B399425F0A4FF0089C3A1 /* CardsViewController.swift */,
+				700B399725F0A82D0089C3A1 /* BondsViewController.swift */,
+				700B399A25F0AD3F0089C3A1 /* BillsViewController.swift */,
+				700B399D25F0AF7A0089C3A1 /* CertificatesViewController.swift */,
+				700B39A025F0B1DC0089C3A1 /* FolderViewController.swift */,
+				700B39A325F0B3DD0089C3A1 /* AdsViewController.swift */,
+				700B39A625F0B5810089C3A1 /* CPaperViewController.swift */,
+			);
+			path = printViews;
+			sourceTree = "<group>";
+		};
+		70F8BAAA25EE5BA40027554D /* ServiceSelection */ = {
+			isa = PBXGroup;
+			children = (
+				70F8BAA725EE5B9F0027554D /* SelectServiceVC.swift */,
+			);
+			path = ServiceSelection;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		704E62AB25ED5514005BEF58 /* PrintApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 704E62C025ED5516005BEF58 /* Build configuration list for PBXNativeTarget "PrintApp" */;
+			buildPhases = (
+				704E62A825ED5514005BEF58 /* Sources */,
+				704E62A925ED5514005BEF58 /* Frameworks */,
+				704E62AA25ED5514005BEF58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrintApp;
+			productName = PrintApp;
+			productReference = 704E62AC25ED5514005BEF58 /* PrintApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		704E62A425ED5514005BEF58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					704E62AB25ED5514005BEF58 = {
+						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 704E62A725ED5514005BEF58 /* Build configuration list for PBXProject "PrintApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 704E62A325ED5514005BEF58;
+			productRefGroup = 704E62AD25ED5514005BEF58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				704E62AB25ED5514005BEF58 /* PrintApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		704E62AA25ED5514005BEF58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704E630225EE0E1E005BEF58 /* OFL.txt in Resources */,
+				704E62FE25EE0E1E005BEF58 /* Cairo-Regular.ttf in Resources */,
+				704E62BC25ED5516005BEF58 /* LaunchScreen.storyboard in Resources */,
+				704E62B925ED5516005BEF58 /* Assets.xcassets in Resources */,
+				704E630025EE0E1E005BEF58 /* Cairo-Black.ttf in Resources */,
+				704E62FD25EE0E1E005BEF58 /* Cairo-SemiBold.ttf in Resources */,
+				704E62B725ED5514005BEF58 /* Main.storyboard in Resources */,
+				704E62FC25EE0E1E005BEF58 /* Cairo-ExtraLight.ttf in Resources */,
+				704E630125EE0E1E005BEF58 /* Cairo-Bold.ttf in Resources */,
+				704E62FF25EE0E1E005BEF58 /* Cairo-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		704E62A825ED5514005BEF58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E4053725F000D00036CB24 /* ComputerBillsViewController.swift in Sources */,
+				046DF45825EFA0F80015A7BA /* SWRevealViewController.m in Sources */,
+				700B399525F0A4FF0089C3A1 /* CardsViewController.swift in Sources */,
+				704E62B425ED5514005BEF58 /* ViewController.swift in Sources */,
+				700B39A425F0B3DD0089C3A1 /* AdsViewController.swift in Sources */,
+				704E62B025ED5514005BEF58 /* AppDelegate.swift in Sources */,
+				700B399825F0A82D0089C3A1 /* BondsViewController.swift in Sources */,
+				704E630C25EE3D55005BEF58 /* DesignAbleViews.swift in Sources */,
+				700B399E25F0AF7A0089C3A1 /* CertificatesViewController.swift in Sources */,
+				700B39A125F0B1DC0089C3A1 /* FolderViewController.swift in Sources */,
+				704E62B225ED5514005BEF58 /* SceneDelegate.swift in Sources */,
+				70F8BAA825EE5B9F0027554D /* SelectServiceVC.swift in Sources */,
+				700B399B25F0AD3F0089C3A1 /* BillsViewController.swift in Sources */,
+				70E4052E25EFF6820036CB24 /* SideMeneViewController.swift in Sources */,
+				70E4053A25F001830036CB24 /* PrintDetailViewController.swift in Sources */,
+				700B39A725F0B5820089C3A1 /* CPaperViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		704E62B525ED5514005BEF58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				704E62B625ED5514005BEF58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		704E62BA25ED5516005BEF58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				704E62BB25ED5516005BEF58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		704E62BE25ED5516005BEF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		704E62BF25ED5516005BEF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		704E62C125ED5516005BEF58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrintApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mega.PrintApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrintApp/SWRevealController/PrintApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		704E62C225ED5516005BEF58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PrintApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mega.PrintApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrintApp/SWRevealController/PrintApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		704E62A725ED5514005BEF58 /* Build configuration list for PBXProject "PrintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704E62BE25ED5516005BEF58 /* Debug */,
+				704E62BF25ED5516005BEF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		704E62C025ED5516005BEF58 /* Build configuration list for PBXNativeTarget "PrintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				704E62C125ED5516005BEF58 /* Debug */,
+				704E62C225ED5516005BEF58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 704E62A425ED5514005BEF58 /* Project object */;
+}
