@@ -10,33 +10,47 @@ import UIKit
 
 class SideMenuViewController: UIViewController {
     
+    var firstAction: (() -> Void)?
+    var secondAction: (() -> Void)?
+    var thirdAction: (() -> Void)?
+    var fourthAction: (() -> Void)?
+    
+    var sideMenuDelegate: SideMenuProtocol?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    
         
     }
     func closeRevealController() {
         self.revealViewController()?.rightRevealToggle(animated: false)
     }
-    
-    
     @IBAction func firstBtnAction(_ sender: Any) {
-//        let firstVC = self.storyboard?.instantiateViewController(withIdentifier: "SelectServiceVC") as! SelectServiceVC
-//        self.navigationController?.pushViewController (firstVC, animated: true)
         closeRevealController()
-        
+        sideMenuDelegate!.firstNavAction()
     }
     
     @IBAction func secondBtnAction(_ sender: Any) {
         closeRevealController()
+        sideMenuDelegate!.secondNavAction()
     }
     
     @IBAction func thirdBtnAction(_ sender: Any) {
         closeRevealController()
+        sideMenuDelegate!.thirdNavAction()
     }
     
     @IBAction func forthBtnAction(_ sender: Any) {
         closeRevealController()
+        sideMenuDelegate?.fourthNavAction()
     }
+}
+
+
+
+protocol SideMenuProtocol {
+    func firstNavAction()
+    func secondNavAction()
+    func thirdNavAction()
+    func fourthNavAction()
 }

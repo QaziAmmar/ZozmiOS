@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,15 @@
 		700B39A125F0B1DC0089C3A1 /* FolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B39A025F0B1DC0089C3A1 /* FolderViewController.swift */; };
 		700B39A425F0B3DD0089C3A1 /* AdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B39A325F0B3DD0089C3A1 /* AdsViewController.swift */; };
 		700B39A725F0B5820089C3A1 /* CPaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B39A625F0B5810089C3A1 /* CPaperViewController.swift */; };
+		700B39AB25F0C5C70089C3A1 /* BankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B39AA25F0C5C70089C3A1 /* BankViewController.swift */; };
+		700B39AF25F0C5DC0089C3A1 /* TearmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B39AE25F0C5DC0089C3A1 /* TearmViewController.swift */; };
+		700B39B225F0C5E50089C3A1 /* VersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B39B125F0C5E50089C3A1 /* VersionViewController.swift */; };
+		700B39B525F0C7950089C3A1 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B39B425F0C7950089C3A1 /* ContactViewController.swift */; };
+		701ABB7725F0D1FD00F66BD1 /* StepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701ABB7625F0D1FD00F66BD1 /* StepsViewController.swift */; };
+		701ABB8F25F0F9D000F66BD1 /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701ABB8E25F0F9D000F66BD1 /* IQKeyboardManagerSwift.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		7030D88625F6558F00C6F510 /* OrderDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7030D88525F6558F00C6F510 /* OrderDetailTableViewCell.swift */; };
+		7046C82E25F618A900CA3D33 /* MultipleChoiceFuction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7046C82D25F618A900CA3D33 /* MultipleChoiceFuction.swift */; };
+		7046C83325F6480400CA3D33 /* SendEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7046C83225F6480400CA3D33 /* SendEmailViewController.swift */; };
 		704E62B025ED5514005BEF58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E62AF25ED5514005BEF58 /* AppDelegate.swift */; };
 		704E62B225ED5514005BEF58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E62B125ED5514005BEF58 /* SceneDelegate.swift */; };
 		704E62B425ED5514005BEF58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704E62B325ED5514005BEF58 /* ViewController.swift */; };
@@ -33,12 +42,14 @@
 		70E4053725F000D00036CB24 /* ComputerBillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4053625F000D00036CB24 /* ComputerBillsViewController.swift */; };
 		70E4053A25F001830036CB24 /* PrintDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E4053925F001830036CB24 /* PrintDetailViewController.swift */; };
 		70F8BAA825EE5B9F0027554D /* SelectServiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F8BAA725EE5B9F0027554D /* SelectServiceVC.swift */; };
+		EC2955F7BF1579C26C2CE35B /* Pods_PrintApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214AE6C020D0307272623DF /* Pods_PrintApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		046DF45525EFA0F60015A7BA /* PrintApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrintApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		046DF45625EFA0F70015A7BA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		046DF45725EFA0F80015A7BA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0E808CF21AF750D914E67365 /* Pods-PrintApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintApp.debug.xcconfig"; path = "Target Support Files/Pods-PrintApp/Pods-PrintApp.debug.xcconfig"; sourceTree = "<group>"; };
 		700B399425F0A4FF0089C3A1 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		700B399725F0A82D0089C3A1 /* BondsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondsViewController.swift; sourceTree = "<group>"; };
 		700B399A25F0AD3F0089C3A1 /* BillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillsViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +57,15 @@
 		700B39A025F0B1DC0089C3A1 /* FolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderViewController.swift; sourceTree = "<group>"; };
 		700B39A325F0B3DD0089C3A1 /* AdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsViewController.swift; sourceTree = "<group>"; };
 		700B39A625F0B5810089C3A1 /* CPaperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPaperViewController.swift; sourceTree = "<group>"; };
+		700B39AA25F0C5C70089C3A1 /* BankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankViewController.swift; sourceTree = "<group>"; };
+		700B39AE25F0C5DC0089C3A1 /* TearmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TearmViewController.swift; sourceTree = "<group>"; };
+		700B39B125F0C5E50089C3A1 /* VersionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionViewController.swift; sourceTree = "<group>"; };
+		700B39B425F0C7950089C3A1 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		701ABB7625F0D1FD00F66BD1 /* StepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsViewController.swift; sourceTree = "<group>"; };
+		701ABB8E25F0F9D000F66BD1 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7030D88525F6558F00C6F510 /* OrderDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailTableViewCell.swift; sourceTree = "<group>"; };
+		7046C82D25F618A900CA3D33 /* MultipleChoiceFuction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleChoiceFuction.swift; sourceTree = "<group>"; };
+		7046C83225F6480400CA3D33 /* SendEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendEmailViewController.swift; sourceTree = "<group>"; };
 		704E62AC25ED5514005BEF58 /* PrintApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrintApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		704E62AF25ED5514005BEF58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		704E62B125ED5514005BEF58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +86,8 @@
 		70E4053625F000D00036CB24 /* ComputerBillsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerBillsViewController.swift; sourceTree = "<group>"; };
 		70E4053925F001830036CB24 /* PrintDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintDetailViewController.swift; sourceTree = "<group>"; };
 		70F8BAA725EE5B9F0027554D /* SelectServiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectServiceVC.swift; sourceTree = "<group>"; };
+		C214AE6C020D0307272623DF /* Pods_PrintApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrintApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90843B2B78363763E3A455E /* Pods-PrintApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrintApp.release.xcconfig"; path = "Target Support Files/Pods-PrintApp/Pods-PrintApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +95,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701ABB8F25F0F9D000F66BD1 /* IQKeyboardManagerSwift.framework in Frameworks */,
+				EC2955F7BF1579C26C2CE35B /* Pods_PrintApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,11 +121,67 @@
 			path = SideMenu;
 			sourceTree = "<group>";
 		};
+		1DFD1101F032C297A44E7A19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E808CF21AF750D914E67365 /* Pods-PrintApp.debug.xcconfig */,
+				D90843B2B78363763E3A455E /* Pods-PrintApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		700B39A925F0C5AF0089C3A1 /* SideMenuViews */ = {
+			isa = PBXGroup;
+			children = (
+				700B39AA25F0C5C70089C3A1 /* BankViewController.swift */,
+				700B39AE25F0C5DC0089C3A1 /* TearmViewController.swift */,
+				700B39B125F0C5E50089C3A1 /* VersionViewController.swift */,
+				700B39B425F0C7950089C3A1 /* ContactViewController.swift */,
+			);
+			path = SideMenuViews;
+			sourceTree = "<group>";
+		};
+		701ABB7525F0D1E700F66BD1 /* StepsVC */ = {
+			isa = PBXGroup;
+			children = (
+				701ABB7625F0D1FD00F66BD1 /* StepsViewController.swift */,
+			);
+			path = StepsVC;
+			sourceTree = "<group>";
+		};
+		7030D88425F6555E00C6F510 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7030D88525F6558F00C6F510 /* OrderDetailTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		7046C83025F647EF00CA3D33 /* printDetail */ = {
+			isa = PBXGroup;
+			children = (
+				7030D88425F6555E00C6F510 /* TableViewCell */,
+				70E4053925F001830036CB24 /* PrintDetailViewController.swift */,
+				7046C83225F6480400CA3D33 /* SendEmailViewController.swift */,
+			);
+			path = printDetail;
+			sourceTree = "<group>";
+		};
+		704D236C25F4C2E8007B5526 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7046C82D25F618A900CA3D33 /* MultipleChoiceFuction.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		704E62A325ED5514005BEF58 = {
 			isa = PBXGroup;
 			children = (
 				704E62AE25ED5514005BEF58 /* PrintApp */,
 				704E62AD25ED5514005BEF58 /* Products */,
+				1DFD1101F032C297A44E7A19 /* Pods */,
+				F162A8184AB1C8AB475E9B28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +196,10 @@
 		704E62AE25ED5514005BEF58 /* PrintApp */ = {
 			isa = PBXGroup;
 			children = (
+				7046C83025F647EF00CA3D33 /* printDetail */,
+				704D236C25F4C2E8007B5526 /* Extension */,
+				701ABB7525F0D1E700F66BD1 /* StepsVC */,
+				700B39A925F0C5AF0089C3A1 /* SideMenuViews */,
 				70E4053425EFFFAF0036CB24 /* printViews */,
 				0483CDE425EFB2F300687B80 /* SideMenu */,
 				046DF45425EFA0D00015A7BA /* SWRevealController */,
@@ -129,7 +213,6 @@
 				704E62BA25ED5516005BEF58 /* LaunchScreen.storyboard */,
 				704E62BD25ED5516005BEF58 /* Info.plist */,
 				704E62F425EE0E1E005BEF58 /* Cairo */,
-				70E4053925F001830036CB24 /* PrintDetailViewController.swift */,
 			);
 			path = PrintApp;
 			sourceTree = "<group>";
@@ -179,6 +262,15 @@
 			path = ServiceSelection;
 			sourceTree = "<group>";
 		};
+		F162A8184AB1C8AB475E9B28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				701ABB8E25F0F9D000F66BD1 /* IQKeyboardManagerSwift.framework */,
+				C214AE6C020D0307272623DF /* Pods_PrintApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,9 +278,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 704E62C025ED5516005BEF58 /* Build configuration list for PBXNativeTarget "PrintApp" */;
 			buildPhases = (
+				E5BC84430A78EE6D744EA57A /* [CP] Check Pods Manifest.lock */,
 				704E62A825ED5514005BEF58 /* Sources */,
 				704E62A925ED5514005BEF58 /* Frameworks */,
 				704E62AA25ED5514005BEF58 /* Resources */,
+				1384DF89F97BD295B751847F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,23 +346,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1384DF89F97BD295B751847F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrintApp/Pods-PrintApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrintApp/Pods-PrintApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrintApp/Pods-PrintApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BC84430A78EE6D744EA57A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrintApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		704E62A825ED5514005BEF58 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				70E4053725F000D00036CB24 /* ComputerBillsViewController.swift in Sources */,
+				7046C82E25F618A900CA3D33 /* MultipleChoiceFuction.swift in Sources */,
 				046DF45825EFA0F80015A7BA /* SWRevealViewController.m in Sources */,
 				700B399525F0A4FF0089C3A1 /* CardsViewController.swift in Sources */,
 				704E62B425ED5514005BEF58 /* ViewController.swift in Sources */,
 				700B39A425F0B3DD0089C3A1 /* AdsViewController.swift in Sources */,
+				700B39B225F0C5E50089C3A1 /* VersionViewController.swift in Sources */,
 				704E62B025ED5514005BEF58 /* AppDelegate.swift in Sources */,
 				700B399825F0A82D0089C3A1 /* BondsViewController.swift in Sources */,
 				704E630C25EE3D55005BEF58 /* DesignAbleViews.swift in Sources */,
+				700B39B525F0C7950089C3A1 /* ContactViewController.swift in Sources */,
+				7030D88625F6558F00C6F510 /* OrderDetailTableViewCell.swift in Sources */,
+				701ABB7725F0D1FD00F66BD1 /* StepsViewController.swift in Sources */,
+				7046C83325F6480400CA3D33 /* SendEmailViewController.swift in Sources */,
+				700B39AF25F0C5DC0089C3A1 /* TearmViewController.swift in Sources */,
 				700B399E25F0AF7A0089C3A1 /* CertificatesViewController.swift in Sources */,
 				700B39A125F0B1DC0089C3A1 /* FolderViewController.swift in Sources */,
 				704E62B225ED5514005BEF58 /* SceneDelegate.swift in Sources */,
 				70F8BAA825EE5B9F0027554D /* SelectServiceVC.swift in Sources */,
+				700B39AB25F0C5C70089C3A1 /* BankViewController.swift in Sources */,
 				700B399B25F0AD3F0089C3A1 /* BillsViewController.swift in Sources */,
 				70E4052E25EFF6820036CB24 /* SideMeneViewController.swift in Sources */,
 				70E4053A25F001830036CB24 /* PrintDetailViewController.swift in Sources */,
@@ -416,17 +560,20 @@
 		};
 		704E62C125ED5516005BEF58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E808CF21AF750D914E67365 /* Pods-PrintApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HLY2BZ52P;
 				INFOPLIST_FILE = PrintApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mega.PrintApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mega.ZozmApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PrintApp/SWRevealController/PrintApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -437,17 +584,20 @@
 		};
 		704E62C225ED5516005BEF58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90843B2B78363763E3A455E /* Pods-PrintApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5HLY2BZ52P;
 				INFOPLIST_FILE = PrintApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mega.PrintApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mega.ZozmApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PrintApp/SWRevealController/PrintApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

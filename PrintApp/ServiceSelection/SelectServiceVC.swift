@@ -7,13 +7,20 @@
 import UIKit
 import Foundation
 
-class SelectServiceVC: UIViewController {
-        
+class SelectServiceVC: UIViewController, UIGestureRecognizerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
+        self.navigationController?.interactivePopGestureRecognizer!.delegate = self
         
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.navigationController?.interactivePopGestureRecognizer?.isEnabled = true
     }
 
     @IBAction func backButtonAction(_ sender: UIButton) {
