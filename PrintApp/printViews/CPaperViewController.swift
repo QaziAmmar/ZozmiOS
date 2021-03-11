@@ -82,6 +82,8 @@ class CPaperViewController: UIViewController, UIGestureRecognizerDelegate {
         let printDetailVC = (storyboard?.instantiateViewController(identifier: "PrintDetailViewController"))! as PrintDetailViewController
         printDetailVC.firstarray = firstarray
        printDetailVC.secondarray = secondarray
+        printDetailVC.thirdarray = thirdarray
+        printDetailVC.fourtharray = fourtharray
         
         self.navigationController?.pushViewController(printDetailVC, animated: true)
         

@@ -92,14 +92,11 @@ extension PrintDetailViewController: UITableViewDelegate, UITableViewDataSource 
             } else {
                 cell.lblSecond.text = ""
             }
-            
             if  firstarray.indices.contains(3) {
                 cell.lblFirst.text = firstarray[3]
             } else {
                 cell.lblFirst.text = ""
             }
-            
-            
             
         } else if indexPath.row == 1 {
             
@@ -152,8 +149,7 @@ extension PrintDetailViewController: UITableViewDelegate, UITableViewDataSource 
             } else {
                 cell.lblFirst.text = ""
             }
-            
-            
+
         } else if indexPath.row == 3 {
             
             if  fourtharray.indices.contains(0) {

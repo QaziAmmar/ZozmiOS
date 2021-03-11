@@ -73,6 +73,7 @@ class BillsViewController: UIViewController, UIGestureRecognizerDelegate {
         let printDetailVC = (storyboard?.instantiateViewController(identifier: "PrintDetailViewController"))! as PrintDetailViewController
         printDetailVC.firstarray = firstarray
         printDetailVC.secondarray = secondarray
+        printDetailVC.thirdarray = thirdarray
         
         self.navigationController?.pushViewController(printDetailVC, animated: true)
         

@@ -220,7 +220,7 @@ class CardsViewController: UIViewController, UIGestureRecognizerDelegate {
 //
 //
         fourthString = "4 ألوان"
-        fourth1View.backgroundColor = setViewColor(stringArray: &thirdrray, value: fourthString)
+        fourth1View.backgroundColor = setViewColor(stringArray: &fourtarray, value: fourthString)
     }
     @IBAction func fourth2BtnAction(_ sender: Any) {
 //        fourth1View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
@@ -228,7 +228,7 @@ class CardsViewController: UIViewController, UIGestureRecognizerDelegate {
 //        fourth3View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
 //        fourth4View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
         fourthString = "3 ألوان"
-        fourth2View.backgroundColor = setViewColor(stringArray: &thirdrray, value: fourthString)
+        fourth2View.backgroundColor = setViewColor(stringArray: &fourtarray, value: fourthString)
     }
     @IBAction func fourth3BtnAction(_ sender: Any) {
 //        fourth1View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
@@ -237,7 +237,7 @@ class CardsViewController: UIViewController, UIGestureRecognizerDelegate {
 //        fourth4View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
 //
         fourthString = "الونان"
-        fourth3View.backgroundColor = setViewColor(stringArray: &thirdrray, value: fourthString)
+        fourth3View.backgroundColor = setViewColor(stringArray: &fourtarray, value: fourthString)
     }
     @IBAction func fourth4BtnAction(_ sender: Any) {
 //        fourth1View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
@@ -246,7 +246,7 @@ class CardsViewController: UIViewController, UIGestureRecognizerDelegate {
 //        fourth4View.backgroundColor = #colorLiteral(red: 0.1843137255, green: 0.5019607843, blue: 0.9294117647, alpha: 1)
 //
         fourthString = "لون واحد"
-        fourth4View.backgroundColor = setViewColor(stringArray: &thirdrray, value: fourthString)
+        fourth4View.backgroundColor = setViewColor(stringArray: &fourtarray, value: fourthString)
     }
     
 }

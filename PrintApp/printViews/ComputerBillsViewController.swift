@@ -182,7 +182,7 @@ class ComputerBillsViewController: UIViewController, UIGestureRecognizerDelegate
 //        third3View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
 //        third4View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
 //
-        thirdString = "مسير رواتب"
+        thirdString = "كمبيالة"
         third1View.backgroundColor = setViewColor(stringArray: &thirdrray, value: thirdString)
     }
     @IBAction func third2BtnAction(_ sender: Any) {
@@ -191,7 +191,7 @@ class ComputerBillsViewController: UIViewController, UIGestureRecognizerDelegate
 //        third3View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
 //        third4View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
 //
-        thirdString = "دفتر يومية"
+        thirdString = "محضر"
         third2View.backgroundColor = setViewColor(stringArray: &thirdrray, value: thirdString)
     }
     @IBAction func third3BtnAction(_ sender: Any) {
@@ -200,7 +200,7 @@ class ComputerBillsViewController: UIViewController, UIGestureRecognizerDelegate
 //        third3View.backgroundColor = #colorLiteral(red: 0.1843137255, green: 0.5019607843, blue: 0.9294117647, alpha: 1)
 //        third4View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
 //
-        thirdString = "محضر"
+        thirdString = "دفتر يومية"
         third3View.backgroundColor = setViewColor(stringArray: &thirdrray, value: thirdString)
     }
     @IBAction func third4BtnAction(_ sender: Any) {
@@ -209,7 +209,7 @@ class ComputerBillsViewController: UIViewController, UIGestureRecognizerDelegate
 //        third3View.backgroundColor = #colorLiteral(red: 0.8784313725, green: 0.8784313725, blue: 0.8784313725, alpha: 1)
 //        third4View.backgroundColor = #colorLiteral(red: 0.1843137255, green: 0.5019607843, blue: 0.9294117647, alpha: 1)
 //
-        thirdString = "كمبيالة"
+        thirdString = "مسير رواتب"
         third4View.backgroundColor = setViewColor(stringArray: &thirdrray, value: thirdString)
     }
     
