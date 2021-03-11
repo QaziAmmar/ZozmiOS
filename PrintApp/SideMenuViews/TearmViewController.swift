@@ -14,6 +14,7 @@ class TearmViewController: UIViewController, UIGestureRecognizerDelegate {
 
         // Do any additional setup after loading the view.
         self.navigationController?.interactivePopGestureRecognizer!.delegate = self
+        overrideUserInterfaceStyle = .light
         
     }
     

@@ -14,6 +14,10 @@ class AdsViewController: UIViewController, UIGestureRecognizerDelegate {
 
         // Do any additional setup after loading the view.
         self.navigationController?.interactivePopGestureRecognizer!.delegate = self
+        if #available(iOS 13.0, *) {
+            overrideUserInterfaceStyle = .light
+        }
+        
         
     }
     

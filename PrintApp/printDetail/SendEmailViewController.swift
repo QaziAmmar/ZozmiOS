@@ -34,6 +34,7 @@ class SendEmailViewController: UIViewController {
         secondString = concatinateAllString(tempArray: secondArray)
         thirdString = concatinateAllString(tempArray: thirdArray)
         fourthString = concatinateAllString(tempArray: fourthArray)
+        overrideUserInterfaceStyle = .light
     }
     
     @IBAction func backBtn(_ sender: Any) {
@@ -95,7 +96,7 @@ class SendEmailViewController: UIViewController {
             mail.mailComposeDelegate = self
             mail.setToRecipients(["zozmplus@gmail.com"])
             
-            mail.setMessageBody("<p>" + firstString + "</n>" + secondString + "</n>" + thirdString + "</n>" + fourthString + "</n>" +  "</p>", isHTML: true)
+            mail.setMessageBody("<p>" + firstString + ", \n" + secondString + ", \n" + thirdString + ", \n" + fourthString + "\n" +  "</p>", isHTML: true)
 //            mail.setMessageBody("<p> test email </p>", isHTML: true)
 
             self.present(mail, animated: true)

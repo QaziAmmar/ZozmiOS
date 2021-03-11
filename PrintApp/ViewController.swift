@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         self.view.addGestureRecognizer((self.revealViewController()?.panGestureRecognizer())!)
         let rightvc = self.revealViewController()?.rightViewController as! SideMenuViewController
         rightvc.sideMenuDelegate = self
-    
+        overrideUserInterfaceStyle = .light
     }
     
     @IBAction func sideMenuBtn(_ sender: UIButton) {
